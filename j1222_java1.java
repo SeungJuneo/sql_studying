@@ -1,6 +1,6 @@
-package sql_studying.java;
+package sql_studying;
 
-class java1{
+class j1222_java1{
     public static void main(String[] args){
         System.out.println("hello world!");
     }
