@@ -1,11 +1,11 @@
---<요약키워드>
+--<단계키워드>
 -- 1. 2022-05만 출력  
 -- 2. 식품 ID, 식품 이름, 총매출
 -- 3. 가장 중요한 건 전체 SUM
 -- 4. 총매출 DESC, 식품id
 
 -- <문제점/해결책>
--- ORDER BY에서 집계함수 사용 불가./SELECT 별칭으로 해결
+-- 4. ORDER BY에서 집계함수 사용 불가./SELECT 별칭으로 해결
 SELECT A.PRODUCT_ID, A.PRODUCT_NAME, SUM(A.PRICE*B.AMOUNT) TOTAL_SALES
 FROM FOOD_PRODUCT A JOIN FOOD_ORDER B ON A.PRODUCT_ID=B.PRODUCT_ID
 WHERE TO_CHAR(B.PRODUCE_DATE, 'YYYY-MM')='2022-05'
