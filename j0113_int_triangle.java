@@ -47,7 +47,7 @@ public class j0113_int_triangle {
         return tg_copy[tg.length-1][tg.length-1];
     }
     public static void main(String[] args){
-        j0110_int_triangle so = new j0110_int_triangle();
+        j0113_int_triangle so = new j0113_int_triangle();
         int[][] triangle = {{7},{3,8},{8,1,0},{2,7,4,4},{4,5,2,6,5}};
         // int[][] triangle = {{0,1,2}, {0,1,2}, {0,1,2}};
         System.out.println(so.solution(triangle));;
