@@ -26,7 +26,7 @@ import java.util.*;
 // 4, 3
 
 
-public class j0110_int_triangle {
+public class j0113_int_triangle {
     public int solution(int[][] tg){
         int[][] tg_copy = new int[tg.length][tg.length];
         tg_copy[0][0] = tg[0][0]; 
