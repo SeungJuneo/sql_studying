@@ -2,7 +2,7 @@ package sql_studying;
 
 import java.util.HashSet;
 
-public class j0109_Sosu{
+public class j0114_Sosu{
     public int solution(String numbers) {
         HashSet<Integer> hashSet1 = new HashSet<>();
         gp("", numbers.toCharArray(), new boolean[numbers.length()], hashSet1);
@@ -43,7 +43,7 @@ public class j0109_Sosu{
     }
 
     public static void main(String[] args) {
-        j0109_Sosu so = new j0109_Sosu();
+        j0114_Sosu so = new j0114_Sosu();
         System.out.println(so.solution("17"));  // Output: 3
         System.out.println(so.solution("011")); // Output: 2
     }
