@@ -1,3 +1,11 @@
+// --<단계키워드>
+// -- 1. stack을 만든다
+// -- 2. peek index와 i index를 비교한다
+// -- 3. 예외사항 처리를 해준다
+
+// -- <문제점/해결책>
+// -- 2. peek() 메서드에 대해 모름
+
 package sql_studying;
 import java.util.*;
 
